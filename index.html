@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Trafico</title>
+        <meta http-equiv="Content-Type" content = "text/html; charset = utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Peliculas y series">
+        <meta name="keywords" content="peliculas, series, estrenos">
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <div class="nav-wrapper grey darken-4">
+                <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+                <form>
+                    <div class="input-field">
+                        <input id="search" type="search" required>
+                        <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                        <i class="material-icons">close</i>
+                    </div>
+                </form>
+                <ul id="slide-out" class="side-nav fixed">
+                    <li>
+                        <div class="userView">
+                            <div class="background">
+                                <img src="fondoPerfilDefault.png">
+                            </div>
+                            <a href="#!user"><img class="circle" src="iconUserDefault.jpg"></a>
+                            <a href="#!name"><span class="white-text name">Iván</span></a>
+                            <a href="#!email"><span class="white-text email">ivan.lara.gomez.1977@gmail.com</span></a>
+                        </div>
+                    </li>
+                    <li>
+                        <ul class="collapsible" data-collapsible="expandable">
+                            <li>
+                                <div class="collapsible-header">
+                                    <a href="#" id="kml_0" class="tipoKML black-text">
+                                        <span class="font entypo-attention"></span>
+                                        <span>Incidentes</span>
+                                        <span class="fa fa-angle-up right-align"></span>
+                                    </a>
+                                </div>
+                                <div class="collapsible-body">
+                                    <ul class="collection">
+                                        <li class="black-text"><a href="#" class="black-text"><i><img src="ico_i0.gif" /></i>Obras</a></li>
+                                        <li class="black-text"><a href="#" class="black-text"><i><img src="ico_i1.gif" /></i>Accidentes</a></li>
+                                        <li class="black-text"><a href="#" class="black-text"><i><img src="ico_i2.gif" /></i>Alerta</a></li>
+                                        <li class="black-text"><a href="#" class="black-text"><i><img src="ico_i3.gif" /></i>Evento</a></li>
+                                        <li class="black-text"><a href="#" class="black-text"><i><img src="ico_i4.gif" /></i>Previsión</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>                    
+                    </li>
+                    <li>
+                        <ul>
+                            <li>
+                                <a href="#" id="kml_1" class="tipoKML black-text">
+                                    <span class="font fa fa-video-camera"></span>
+                                    <span>Cámaras</span>
+                                </a>
+                            </li>
+                        </ul>                    
+                    </li>
+                    <li>
+                        <ul class="collapsible" data-collapsible="expandable">
+                            <li>
+                                <div class="collapsible-header">
+                                    <a href="#" id="kml_2" class="tipoKML black-text">
+                                        <span class="font fa fa-bar-chart"></span>
+                                        <span>Niveles de Servicio</span>
+                                        <span class="fa fa-angle-up right-align"></span>
+                                    </a>
+                                </div>
+                                <div class="collapsible-body">
+                                    <ul class="collection">
+                                        <li class="black-text"><a href="#" class="black-text"><i></i>Fluido</a></li>
+                                        <li class="black-text"><a href="#" class="black-text"><i></i>Lento</a></li>
+                                        <li class="black-text"><a href="#" class="black-text"><i></i>Retenciones</a></li>
+                                        <li class="black-text"><a href="#" class="black-text"><i></i>Congestiones</a></li>
+                                        <li class="black-text"><a href="#" class="black-text"><i></i>Cortado</a></li>
+                                        <li class="black-text"><a href="#" class="black-text"><i></i>Sin datos</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>                    
+                    </li>
+                    <li>
+                        <ul class="collapsible" data-collapsible="expandable">
+                            <li>
+                                <div class="collapsible-header">
+                                    <a href="#" id="kml_3" class="tipoKML black-text">
+                                        <span class="font fa fa-car"></span>
+                                        <span>Intensidades (Veh/h)</span>
+                                        <span class="fa fa-angle-up right-align"></span>
+                                    </a>
+                                </div>
+                                <div class="collapsible-body">
+                                    <ul class="collection">
+                                        <li class="black-text"><a href="#" class="black-text"><i></i>0 - 100</a></li>
+                                        <li class="black-text"><a href="#" class="black-text"><i></i>100 - 500</a></li>
+                                        <li class="black-text"><a href="#" class="black-text"><i></i>500 - 1.000</a></li>
+                                        <li class="black-text"><a href="#" class="black-text"><i></i>1.000 - 2.000</a></li>
+                                        <li class="black-text"><a href="#" class="black-text"><i></i>2.000 - 3.000</a></li>
+                                        <li class="black-text"><a href="#" class="black-text"><i></i>3.000 - 5.000</a></li>
+                                        <li class="black-text"><a href="#" class="black-text"><i></i>5.000 - 10.000</a></li>
+                                        <li class="black-text"><a href="#" class="black-text"><i></i>Sin datos</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>                    
+                    </li>
+                    <li>
+                        <ul>
+                            <li>
+                                <a href="#" id="kml_4" class="tipoKML black-text">
+                                    <span class="font fa fa-ellipsis-v"></span>
+                                    <span>Control Semáforo Rojo</span>
+                                </a>
+                            </li>
+                        </ul>                    
+                    </li>
+                    <li>
+                        <ul>
+                            <li>
+                                <a href="#" id="kml_5" class="tipoKML black-text">
+                                    <span class="font fa fa-bell"></span>
+                                    <span>Avisadores acústicos</span>
+                                </a>
+                            </li>
+                        </ul>                    
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col s12">
+                <div id="map"></div>
+            </div>
+        </div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDG8CBChj4WLWo7x1saF-vB240-Z93jcA4&language=es"></script>
+        
+        <script src="index.js"></script>
+    </body>
+</html>

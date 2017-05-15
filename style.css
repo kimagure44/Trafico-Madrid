@@ -1,0 +1,172 @@
+@import url(http://weloveiconfonts.com/api/?family=brandico|entypo|fontawesome|fontelico|iconicfill|iconicstroke|maki|openwebicons|typicons|zocial);
+
+/* brandico */
+[class*="brandico-"]:before { font-family: 'brandico', sans-serif; }
+
+/* entypo */
+[class*="entypo-"]:before { font-family: 'entypo', sans-serif; }
+
+/* fontawesome */
+[class*="fontawesome-"]:before { font-family: 'FontAwesome', sans-serif; }
+
+/* fontelico */
+[class*="fontelico-"]:before { font-family: 'fontelico', sans-serif; }
+
+/* iconicfill */
+[class*="iconicfill-"]:before { font-family: 'IconicFill', sans-serif; }
+
+/* iconicstroke */
+[class*="iconicstroke-"]:before { font-family: 'IconicStroke', sans-serif; }
+
+/* maki */
+[class*="maki-"]:before { font-family: 'maki', sans-serif; }
+
+/* openwebicons */
+[class*="openwebicons-"]:before { font-family: 'OpenWeb Icons', sans-serif; }
+
+/* typicons */
+[class*="typicons-"]:before { font-family: 'Typicons', sans-serif; }
+
+/* zocial */
+[class*="zocial-"]:before { font-family: 'zocial', sans-serif; }
+
+#map 
+{
+    width: 100%;
+    top: 10px;
+}
+
+nav > .nav-wrapper > form 
+{
+    position: absolute;
+    right: 0;
+    width: calc(100% + -60px);
+}
+#modalUserSettings .tabs-content, #modalUserSettings .tabs-content div 
+{
+    height: 220px;
+}
+.font 
+{
+    float: left;
+    height: 48px;
+    line-height: 48px;
+    margin: 0 32px 0 0;
+    width: 24px;
+    color: rgba(0,0,0,0.54);
+}
+.collapsible li div a span.fa.right-align
+{
+    position: absolute;
+    right: 20px;
+    margin-top: 13px;
+    font-size: 23px !important;
+}
+.collapsible-body > ul.collection 
+{
+    margin-left: 55px;
+}
+#slide-out li a 
+{
+    font-weight: 500;
+}
+header, main, footer 
+{
+    padding-left: 300px;
+}
+#slide-out > li:nth-child(4) .collection > li > a > i, #slide-out > li:nth-child(5) .collection > li > a > i 
+{
+    height: 25px;
+    margin-top: 10px;
+}
+#slide-out > li:nth-child(4) .collection > li:nth-child(1) > a > i 
+{
+    background: #00ff00;
+}
+#slide-out > li:nth-child(4) .collection > li:nth-child(2) > a > i 
+{
+    background: #dfdf00;
+}
+#slide-out > li:nth-child(4) .collection > li:nth-child(3) > a > i 
+{
+    background: #FF8000;
+}
+#slide-out > li:nth-child(4) .collection > li:nth-child(4) > a > i 
+{
+    background: #ff0000;
+}
+#slide-out > li:nth-child(4) .collection > li:nth-child(5) > a > i 
+{
+    background: #000000;
+}
+#slide-out > li:nth-child(4) .collection > li:nth-child(6) > a > i 
+{
+    background: #aa55ff;
+}
+
+#slide-out > li:nth-child(5) .collection > li:nth-child(1) > a > i 
+{
+    background: #91FF91;
+}
+#slide-out > li:nth-child(5) .collection > li:nth-child(2) > a > i 
+{
+    background: #52FF31;
+}
+#slide-out > li:nth-child(5) .collection > li:nth-child(3) > a > i 
+{
+    background: #08CC22;
+}
+#slide-out > li:nth-child(5) .collection > li:nth-child(4) > a > i 
+{
+    background: #037C1B;
+}
+#slide-out > li:nth-child(5) .collection > li:nth-child(5) > a > i 
+{
+    background: #FFFF00;
+}
+#slide-out > li:nth-child(5) .collection > li:nth-child(6) > a > i 
+{
+    background: #FF8040;
+}
+#slide-out > li:nth-child(5) .collection > li:nth-child(7) > a > i 
+{
+    background: #663300;
+}
+#slide-out > li:nth-child(5) .collection > li:nth-child(8) > a > i 
+{
+    background: #6600FF;
+}
+@media only screen and (min-width: 993px)
+{
+    nav a.button-collapse 
+    {
+        display: block;
+    }
+    body > .row, body > nav 
+    {
+        padding-left: 300px;
+    }
+    body > nav > .nav-wrapper > a.button-collapse 
+    {
+        display: none;
+    }
+    nav > .nav-wrapper > form 
+    {
+        width: calc(100% + -1px);
+    }
+}
+@media only screen and (max-width : 992px) 
+{
+    header, main, footer 
+    {
+        padding-left: 0;
+    }
+    body > .row, body > nav 
+    {
+        padding-left: 0;
+    }
+    nav > .nav-wrapper > form 
+    {
+        width: calc(100% + -60px);
+    }
+}

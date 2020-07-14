@@ -69,17 +69,9 @@ $(document).ready(function()
         complete: function() { }
     });
 
-    /*$("#search").on("keypress", function(event)
-    {
-        if (event.keyCode == 13 && $(this).val().length > 0)    
-        {
-        }
-    })*/
-
     $("a.tipoKML").on("click", function()
     {
         var layer = $(this).attr("id").split("_")[1];
-        debugger;
         if ($(this).children("span.fa").hasClass("fa-angle-down"))
         {
             $(this).children("span.fa.right-align").removeClass("fa-angle-down").addClass("fa-angle-up");
